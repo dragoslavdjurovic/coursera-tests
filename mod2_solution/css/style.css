@@ -33,16 +33,18 @@ p {
 .row {
     width: 100%;
     margin-top: 100px;
+    padding: 0 10px;
+    
 }
 
 .item-details {
     background-color: gray;
-    border: 3px solid black;
+    border: 1px solid black;
 
 }
 
 .item-wrapper {
-    padding: 0 15px;
+    padding: 0 10px;
 
 }
 
@@ -50,8 +52,8 @@ p {
     float: right;
     padding: 5px 60px;
     background-color: red;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
 }
 
 #Chicken {
@@ -59,7 +61,8 @@ p {
 }
 
 #Beef {
-    background-color: red;
+    background-color: darkred;
+    color:white;
 }
 
 #Shushi {
